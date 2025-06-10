@@ -1,1 +1,18 @@
-# NEURAL-STYLE-TRANSFER
+NEURAL-STYLE-TRANSFER
+
+COMPANY: CODTECH IT SOLUTIONS
+
+NAME: T SAI PAVAN
+
+INTERN ID: CT04DF2913
+
+DOMAIN: ARTIFICIAL INTELLIGENCE
+
+DURATION: 4 WEEEKS
+
+MENTOR: NEELA SANTOSH
+
+DESCRIPTION:In this project, I implemented a Neural Style Transfer (NST) model to apply artistic styles from one image onto the content of another, resulting in visually stunning styled photographs. The objective of Neural Style Transfer is to generate a new image that preserves the content of a given input photograph while adopting the artistic style of another image, such as a famous painting or texture pattern. To achieve this, I utilized deep learning techniques based on convolutional neural networks (CNNs), particularly the pre-trained VGG19 model available in the PyTorch library. The VGG19 model, originally trained for image classification tasks on the ImageNet dataset, is widely used in computer vision applications and is particularly effective in extracting hierarchical features from images, which are crucial for both content and style representation.The implementation was done entirely in Python, taking advantage of powerful libraries such as PyTorch for model and tensor operations, Torchvision for model loading and image transformations, Pillow (PIL) for image processing, and Matplotlib for visualization. The model extracts features from multiple convolutional layers to compute content and style representations. For content, I used the higher-layer activations (typically from the conv4_2 layer of VGG19), which preserve the overall structure and semantics of the image. For style, I used Gram matrices computed from several early convolutional layers, capturing the texture and color distribution that define the artistic appearance of the style image. The loss function was a weighted combination of content loss and style loss, and the target image was optimized using the Adam optimizer to minimize this loss and generate the final stylized output.I developed and tested the code using Visual Studio Code (VS Code), a popular and powerful code editor that provides integrated support for Python, Git, and virtual environments. VS Code’s built-in terminal and extension ecosystem allowed me to easily manage dependencies, run Python scripts, and debug errors. It also provided a user-friendly interface to view styled outputs and iterate over design changes quickly. Additionally, I used the Matplotlib library to visualize intermediate and final results directly within the VS Code environment, which helped in monitoring the optimization process.This Neural Style Transfer model has wide-ranging applications in various creative and industrial fields. It can be used by artists and designers to create unique pieces of digital art by fusing different artistic styles with real-world images. In media and entertainment, NST can be applied to film post-production, animation, and game design to generate aesthetically rich environments or characters. In the mobile app industry, it can power filters for photo editing apps that allow users to apply artistic effects in real-time. Moreover, it offers educational value in deep learning and computer vision courses, as it effectively demonstrates the capability of CNNs in feature extraction and representation learning.In summary, this project enabled me to explore the integration of deep learning models with real-world applications in image processing and digital art. By using tools like PyTorch, VGG19, and Visual Studio Code, I gained hands-on experience in building, training, and optimizing a neural style transfer model while producing visually compelling results that demonstrate the creative potential of artificial intelligence in modern technology.
+
+OUTPUT:
+![Uploading image.png…]()
